@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+        }
+        .container {
+            display:flex;
+        }
+        aside {
+            background-color:gray;
+            width:40vh;
+            height:100vh;
+        }
+        .bluebox {
+            position:relative;
+            top:30px;
+            left:60px;
+            background-color:blue;
+            width:200px;
+            height:50px;
+        }
+        .subcontainer {
+            display:flex;
+            flex-direction:column;
+            background-color:lightgray;
+            width:100vh;
+            height:100vh;
+        }
+        .bar {
+            background-color:aliceblue;
+            height:60px;
+            width:100%;
+        }
+        .propic {
+            margin-top:12px;
+            margin-left:93%;
+            margin-right:19px;
+            background-color:antiquewhite;
+            padding:10px;
+            border-radius:20%;
+        }
+        .searcharea {
+            display:flex;
+            flex-direction:column;
+            margin-top:20%;
+            margin-left:20%;
+            background-color:antiquewhite;
+            width:600px;
+            height:400px;
+        }
+        .Searchbar {
+            margin-top:20%;
+            margin-left:35%;
+            width:180px;
+            border:white solid 1px;
+            padding:7px;
+            border-radius:8%;
+        }
+        .Submit {
+            border:lightgray solid 1px;
+            font-size:20px;
+            padding:5px;
+            margin-top:40px;
+            margin-left:42.5%;
+            width:100px;
+            background-color:lightgray;
+            border-radius:10%;
+        }
+        .profileicon {
+            margin-left:91%;
+            margin-top:22%;
+            background-color:gray;
+            border-radius:100%;
+            width:50px;
+            height:50px;
+        }
+        .anothercontainer {
+            margin-left:90px;
+            background-color:gray;
+            width:60vh;
+            height:100vh;
+        }
+       @media screen (768px) {
+           
+       } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <aside>
+                <div class="bluebox"></div>
+            </aside>
+        </div>
+        <div class="subcontainer">
+            <div class="bar">
+                <div class="propic">DM</div>
+            </div>
+            <div class="searcharea">
+                <input class="Searchbar" type="text" placeholder="Search..">
+                <button type="submit" class="Submit">Submit</button>
+            </div>
+            <div class="profileicon"></div>
+            </div>
+    </div>
+</body>
+</html>
